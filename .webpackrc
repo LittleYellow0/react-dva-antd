@@ -1,6 +1,12 @@
 {
+    "html": {
+      "template": "./src/index.ejs",
+      "v":"aaaaaa",
+      "title": "oms"
+    },
+    "hash": true,
     "disableCSSModules": true,
-    "extraBabelPlugins": [		
-         ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]		
-     ]
-}
+    "extraBabelPlugins": [
+      ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+    ]
+  }
